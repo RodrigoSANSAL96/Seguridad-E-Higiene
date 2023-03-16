@@ -46,6 +46,8 @@ h1 {
     font-weight: bold; }
     .contacto .contacto__info .contacto__titulo {
       margin: 30px; }
+    .contacto .contacto__info .contacto__email {
+      font-size: 10px; }
 
 .prestación {
   padding: 50px;
@@ -146,22 +148,24 @@ div p:hover {
   padding: 10px; }
 
 .titulo-servicio {
+  margin: 20px 20px 0px 20px;
   text-align: center;
   border-style: solid;
   border-color: black;
   border-radius: 10px;
-  background-color: white;
-  margin: 20px; }
+  background-color: white; }
 
 .container {
   display: grid;
   align-items: center;
   justify-content: center;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 1fr 0.5fr 0.5fr 0.5fr;
   grid-template-areas: "area1" "area2" "area3" "area4" "area5" "area6"; }
 
 .area1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
   border-style: double;
   border-radius: 10px;
@@ -170,6 +174,7 @@ div p:hover {
   background-color: white; }
 
 .area2 {
+  margin-top: 30px;
   text-align: center;
   border-style: double;
   border-radius: 10px;
@@ -178,6 +183,7 @@ div p:hover {
   background-color: white; }
 
 .area3 {
+  margin-top: 10px;
   text-align: center;
   border-style: double;
   border-radius: 10px;
@@ -186,14 +192,18 @@ div p:hover {
   background-color: white; }
 
 .area4 {
+  margin-top: 10px;
   text-align: center;
   border-style: double;
   border-radius: 10px;
   border-color: black;
   padding: 20px;
   background-color: white; }
+  .area4 .seguridad {
+    width: 100%; }
 
 .area5 {
+  margin-top: 45px;
   text-align: center;
   border-style: double;
   border-radius: 10px;
@@ -202,6 +212,7 @@ div p:hover {
   background-color: white; }
 
 .area6 {
+  margin-top: 45px;
   padding: 20px;
   margin-bottom: 20px;
   height: 300px;
@@ -210,8 +221,6 @@ div p:hover {
   border-radius: 10px;
   border-color: black;
   background-color: white; }
-  .area6 .signo-fuego {
-    width: 75%; }
 
 main {
   background-color: grey; }

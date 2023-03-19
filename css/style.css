@@ -222,5 +222,34 @@ div p:hover {
   border-color: black;
   background-color: white; }
 
+.img-contacto {
+  margin-top: 90px;
+  width: 100%; }
+
+.titulo3 {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  width: 90%;
+  margin: 20px auto 20px auto;
+  text-align: center;
+  background-color: yellow;
+  font-size: small;
+  padding: 10px; }
+
+.formulario {
+  border-style: solid;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 1px;
+  width: 90%;
+  margin: 0px auto 20px auto; }
+  .formulario .formulario-info {
+    text-align: center;
+    margin: 20px 0px 20px 0px; }
+
+input {
+  margin-bottom: 20px; }
+
 main {
   background-color: grey; }

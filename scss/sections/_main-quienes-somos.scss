@@ -30,3 +30,13 @@
 .logo1{
     width: 100%;
 }
+/*Dispositivos pequeños*/
+@media (min-width: 320px){
+    .titulo1{
+        width: 80%;
+        margin: 40px auto 40px auto;
+    }
+    .logo1{
+        height: 200px;
+    }
+}

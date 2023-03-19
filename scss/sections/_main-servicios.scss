@@ -95,3 +95,17 @@
     border-color: black;
     background-color: white;
 }
+/*Dispositivos pequeños*/
+@media (min-width: 320px){
+    .titulo2{
+        width: 80%;
+        margin: 40px auto 40px auto;
+    }
+    .titulo-servicio{
+        width: 50%;
+        margin: 20px auto 0px auto;
+    }
+    .container{
+        width: 80%;
+    }
+}

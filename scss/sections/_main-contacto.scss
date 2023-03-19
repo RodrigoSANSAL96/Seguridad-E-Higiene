@@ -15,6 +15,7 @@
 }
 
 .formulario{
+    background-color: white;
     border-style: solid;
     border-radius: 10px;
     border-color: black;
@@ -27,5 +28,23 @@
     }
 }
 input{
+    border-width: 2px;
     margin-bottom: 20px;
+}
+textarea{
+    border-width: 2px;
+}
+/*Dispositivos pequeños*/
+@media (min-width: 320px){
+    .titulo3{
+        width: 80%;
+        margin: 40px auto 40px auto;
+    }
+    .formulario{
+        width: 80%;
+        padding: 20px;
+    }
+    .boton{
+        margin: 20px;
+    }
 }

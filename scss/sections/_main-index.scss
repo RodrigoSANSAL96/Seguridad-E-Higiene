@@ -106,3 +106,42 @@ div p:hover{
         }
     }
 }
+/*Dispositivos medianos*/
+@media (min-width: 480px){
+    .seg{
+        height: 300px;
+    }
+    .titulo{
+        margin: 40px auto 40px auto;
+        font-size: 25px;
+    }
+    .contacto__info{
+        font-size: 25px;
+        .contacto__titulo{
+            margin: 30px;
+            font-size: 40px;
+        }
+    }
+    .prestación{
+        margin: 0px 100px 0px 100px;
+        height: 500px;
+        .prestación__texto{
+            font-size: 50px;
+            margin-top: 90px;
+        }
+    }
+    .caja1{
+        margin: 40px 0px 40px 0px;
+        width: 80%;
+        height: 300px;
+    }
+    .caja2{
+        width: 80%;
+        height: 300px;
+        margin-bottom: 60px;
+    }
+    .caja-texto{
+       width: 80%;
+       margin: 40px auto 0px auto;
+    }
+}

@@ -18,22 +18,20 @@ h1{
     font-size: small;
     padding: 10px;
 }
-.contacto{
+.servicios{
     border-style: solid;
     border-width: 3px;
     border-radius: 10px;
     margin: 30px 20px 30px 20px;
-    background-color: white;
-    .contacto__info{
+    background-color: rgba(0, 0, 0, 0.438);
+    .servicios__info{
+        padding: 20px;
         text-align: center;
         font-weight: bold;
-        .contacto__titulo{
-            margin: 30px;
-        }
-        .contacto__email{
-            font-size: 85%;
-        }
     }
+}
+a{
+    color: black;
 }
 .prestación{
     padding: 50px;
@@ -94,7 +92,7 @@ div p:hover{
         width: 80%;
         margin: 20px auto 10px auto;
     }
-    .contacto{
+    .servicios{
         width: 70%;
         margin: 10px auto 20px auto;
     }
@@ -114,13 +112,6 @@ div p:hover{
     .titulo{
         margin: 40px auto 40px auto;
         font-size: 25px;
-    }
-    .contacto__info{
-        font-size: 25px;
-        .contacto__titulo{
-            margin: 30px;
-            font-size: 40px;
-        }
     }
     .prestación{
         margin: 0px 100px 0px 100px;

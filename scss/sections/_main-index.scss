@@ -114,11 +114,11 @@ div p:hover{
         font-size: 25px;
     }
     .prestación{
-        margin: 0px 100px 0px 100px;
+        margin-top: 60px;
         height: 500px;
         .prestación__texto{
-            font-size: 50px;
-            margin-top: 90px;
+            margin-top: 120px;
+
         }
     }
     .caja1{
@@ -133,6 +133,32 @@ div p:hover{
     }
     .caja-texto{
        width: 80%;
-       margin: 40px auto 0px auto;
+       margin: auto;
+    }
+}
+/*Dispositivos grandes*/
+@media (min-width: 768px){
+    nav{
+        height: 120x;
+    }
+    .seg{
+        margin-top: 90px;
+        height: 400px;
+    }
+    .prestación{
+        margin-top: 60px;
+        height: 600px;
+        .prestación__texto{
+            margin-top: 180px;
+        }
+    }
+    .caja1{
+        height: 400px;
+    }
+    .caja2{
+        height: 400px;
+    }
+    .caja-texto{
+        margin-top: 100px;
     }
 }

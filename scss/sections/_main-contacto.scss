@@ -51,3 +51,30 @@ textarea{
         margin: 20px;
     }
 }
+/*Dispositivos medianos*/
+@media (min-width: 480px){
+    .titulo3{
+        font-size: 20px;
+    }
+    .formulario{
+        width: 75%;
+    }
+    input{
+        margin: 20px auto 20px auto;
+    }
+    textarea{
+        margin: 20px auto 20px auto;
+    }
+    .boton2{
+        margin: 20px;
+    }
+}
+/*Dispositivos grandes*/
+@media (min-width: 768px){
+    input{
+        margin: 0px 80px 20px 80px;
+    }
+    textarea{
+        margin: 0px 100px 20px 100px;
+    }
+}

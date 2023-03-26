@@ -121,11 +121,10 @@ div p:hover {
     margin: 40px auto 40px auto;
     font-size: 25px; }
   .prestación {
-    margin: 0px 100px 0px 100px;
+    margin-top: 60px;
     height: 500px; }
     .prestación .prestación__texto {
-      font-size: 50px;
-      margin-top: 90px; }
+      margin-top: 120px; }
   .caja1 {
     margin: 40px 0px 40px 0px;
     width: 80%;
@@ -136,7 +135,26 @@ div p:hover {
     margin-bottom: 60px; }
   .caja-texto {
     width: 80%;
-    margin: 40px auto 0px auto; } }
+    margin: auto; } }
+
+/*Dispositivos grandes*/
+@media (min-width: 768px) {
+  nav {
+    height: 120x; }
+  .seg {
+    margin-top: 90px;
+    height: 400px; }
+  .prestación {
+    margin-top: 60px;
+    height: 600px; }
+    .prestación .prestación__texto {
+      margin-top: 180px; }
+  .caja1 {
+    height: 400px; }
+  .caja2 {
+    height: 400px; }
+  .caja-texto {
+    margin-top: 100px; } }
 
 .cero-accidentes {
   margin-top: 70px;
@@ -177,6 +195,25 @@ div p:hover {
     margin: 40px auto 40px auto; }
   .logo1 {
     height: 200px; } }
+
+/*Dispositivos medianos*/
+@media (min-width: 480px) {
+  .cero-accidentes {
+    height: 350px; }
+  .titulo1 {
+    font-size: 20px; }
+  .logo1 {
+    height: 300px; } }
+
+/*Dispositivos grandes*/
+@media (min-width: 768px) {
+  .cero-accidentes {
+    height: 400px; }
+  .titulo1 {
+    width: 80%;
+    font-size: 30px; }
+  .como__trabajamostexto {
+    font-size: 20px; } }
 
 .img-servicios {
   width: 100%;
@@ -279,6 +316,23 @@ div p:hover {
   .container {
     width: 80%; } }
 
+/*Dispositivos medianos*/
+@media (min-width: 480px) {
+  .titulo2 {
+    font-size: 20px; }
+  .titulo-servicio {
+    margin-top: 80px;
+    font-size: 35px; }
+  .area6 {
+    margin-bottom: 40px; } }
+
+/*Dispositivos grandes*/
+@media (min-width: 768px) {
+  .titulo2 {
+    font-size: 30px; }
+  .fuego {
+    margin-top: 40px; } }
+
 .img-contactanos {
   margin-top: 90px;
   width: 100%; }
@@ -326,6 +380,26 @@ textarea {
     padding: 20px; }
   .boton {
     margin: 20px; } }
+
+/*Dispositivos medianos*/
+@media (min-width: 480px) {
+  .titulo3 {
+    font-size: 20px; }
+  .formulario {
+    width: 75%; }
+  input {
+    margin: 20px auto 20px auto; }
+  textarea {
+    margin: 20px auto 20px auto; }
+  .boton2 {
+    margin: 20px; } }
+
+/*Dispositivos grandes*/
+@media (min-width: 768px) {
+  input {
+    margin: 0px 80px 20px 80px; }
+  textarea {
+    margin: 0px 100px 20px 100px; } }
 
 main {
   background-color: grey; }

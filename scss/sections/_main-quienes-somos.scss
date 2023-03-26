@@ -40,3 +40,28 @@
         height: 200px;
     }
 }
+/*Dispositivos medianos*/
+@media (min-width: 480px){
+    .cero-accidentes{
+        height: 350px;
+    }
+    .titulo1{
+        font-size: 20px;
+    }
+    .logo1{
+        height: 300px;
+    }
+}
+/*Dispositivos grandes*/
+@media (min-width: 768px){
+    .cero-accidentes{
+        height: 400px;
+    }
+    .titulo1{
+        width: 80%;
+        font-size: 30px;
+    }
+    .como__trabajamostexto{
+        font-size: 20px;
+    }
+}

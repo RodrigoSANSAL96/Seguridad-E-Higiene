@@ -109,3 +109,25 @@
         width: 80%;
     }
 }
+/*Dispositivos medianos*/
+@media (min-width: 480px){
+    .titulo2{
+        font-size: 20px;
+    }
+    .titulo-servicio{
+        margin-top: 80px;
+        font-size: 35px;
+    }
+    .area6{
+        margin-bottom: 40px;
+    }
+}
+/*Dispositivos grandes*/
+@media (min-width: 768px){
+    .titulo2{
+        font-size: 30px;
+    }
+    .fuego{
+        margin-top: 40px;
+    }
+}
